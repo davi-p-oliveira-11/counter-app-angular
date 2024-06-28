@@ -1,0 +1,12 @@
+
+  <div class="card">
+    <div class="number-container">
+      <h2 class="number">{{ count }}</h2>
+    </div>
+    <div class="button-wrapper">
+      <button class="increment-btn" (click)="increment()">+</button>
+      <button class="decrement-btn" (click)="decrement()" [disabled]="count === 0">-</button>
+      <button class="reset-btn" (click)="reset()">Reset</button>
+    </div>
+  </div>  
+
